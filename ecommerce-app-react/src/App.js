@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 //local storage
 const cartFromLocalStorage = JSON.parse(localStorage.getItem('cart') || '[]') ;
-const cartNumberFromLocalStorage = JSON.parse(localStorage.getItem('cartNumber') || '[]') ;
+const cartNumberFromLocalStorage = JSON.parse(localStorage.getItem('cartNumber')) ;
 
 function App() {
   const { products } = data;
